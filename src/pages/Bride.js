@@ -10,7 +10,7 @@ import {
 } from "react-naver-maps";
 import "../App.css";
 import ImageModal from "../components/imageModal";
-
+import mainImage from "../pages/mainImage.jpg"; 
 
 function Bride() {
   // state for image modal
@@ -74,7 +74,7 @@ function Bride() {
           <div className="col-md">
             <div className="mainsection">
               <div>
-                <img src={"https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/mainImage.jpg"} className="main-image" alt="t1"></img>
+                <img src={mainImage} className="main-image" alt="t1"></img>
               </div>
               <div className="mainsection-text">
                 <div className="mainsection-text-1">Join us at our wedding ceramony!</div>
