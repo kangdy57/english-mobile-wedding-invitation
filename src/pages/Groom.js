@@ -97,7 +97,7 @@ function Groom() {
               <div className='gallery-image-list-wrapper row'>
                   {data.data.map((item, index) => (
                     <div key={index} className='col-4'>
-                      <img className='gallery-image' src={item.thumb_image_link} alt={item.text} onClick={()=> handleClick(item, index)}/>
+                      <img loading="lazy" className='gallery-image' src={item.thumb_image_link} alt={item.text} onClick={()=> handleClick(item, index)}/>
                     </div>
                   ))}
               </div>

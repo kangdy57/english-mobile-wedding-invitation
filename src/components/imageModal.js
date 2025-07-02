@@ -11,7 +11,7 @@ const imageModal = ({clickedImg, handleRotationRight, handleRotationLeft, setCli
 
     return <>
     <div className="overlay dismiss" onClick={handleClick}>
-        <img className="" src={clickedImg} alt="original size"/>
+        <img loading="lazy" className="" src={clickedImg} alt="original size"/>
         <span className="dismiss" onClick={handleClick}>X</span>
         <div onClick={handleRotationRight}>
             <div>
