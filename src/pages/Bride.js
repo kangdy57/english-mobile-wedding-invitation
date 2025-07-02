@@ -10,19 +10,7 @@ import {
 } from "react-naver-maps";
 import "../App.css";
 import ImageModal from "../components/imageModal";
-import mainImage from "./mainImage.jpg";
-import no1 from "./no1.jpg";
-import no2 from "./no2.jpg";
-import no3 from "./no3.jpg";
-import no4 from "./no4.jpg";
-import no5 from "./no5.jpg";
-import no6 from "./no6.jpg";
-import no7 from "./no7.jpg";
-import no8 from "./no8.jpg";
-import no9 from "./no9.jpg";
-import no10 from "./no10.jpg";
-import no11 from "./no11.jpg";
-import no12 from "./no12.jpg";
+
 
 function Bride() {
   // state for image modal
@@ -31,19 +19,19 @@ function Bride() {
 
   const navermaps = useNavermaps();
 
-  const imageMap = {
-    "no1.jpg": no1,
-    "no2.jpg": no2,
-    "no3.jpg": no3,
-    "no4.jpg": no4,
-    "no5.jpg": no5,
-    "no6.jpg": no6,
-    "no7.jpg": no7,
-    "no8.jpg": no8,
-    "no9.jpg": no9,
-    "no10.jpg": no10,
-    "no11.jpg": no11,
-    "no12.jpg": no12,
+ const imageMap = {
+   "no1.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no1.jpg",
+  "no2.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no2.jpg",
+  "no3.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no3.jpg",
+  "no4.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no4.jpg",
+  "no5.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no5.jpg",
+  "no6.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no6.jpg",
+  "no7.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no7.jpg",
+  "no8.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no8.jpg",
+  "no9.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no9.jpg",
+  "no10.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no10.jpg",
+  "no11.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no11.jpg",
+  "no12.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no12.jpg"
   };
 
   const handleClick = (item, index) => {
@@ -86,7 +74,7 @@ function Bride() {
           <div className="col-md">
             <div className="mainsection">
               <div>
-                <img src={mainImage} className="main-image" alt="t1" />
+                <img src={"https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/mainImage.jpg"} className="main-image" alt="t1"></img>
               </div>
               <div className="mainsection-text">
                 <div className="mainsection-text-1">We are getting married!</div>
@@ -102,15 +90,18 @@ function Bride() {
             </div>
             <div className="invitation-section">
               <div className="invitation-section-text1">INVITATION</div>
-              <div className="invitation-section-text2">
-                <strong>Dayeon</strong>, born in <strong>Korea</strong>,<br />
-                and <strong>Prannoy</strong>, born in <strong>Nepal</strong>,<br />
-                met by fate in <strong>Germany, Hamburg</strong>,<br />
-                and are now building a life together as a family.<br />
-                We warmly invite you to join us<br />
-                as we celebrate our new beginning at our<br />
-                 <strong>traditional wedding ceremony</strong>.
-              </div>
+<div className="invitation-section-text2">
+  It all started  in <strong>2017</strong>, in a student dorm in 🇩🇪 — <br /> 
+  Prannoy🇳🇵 couldn't stop dreaming about Dayeon🇰🇷. <br /> <br /> 
+ Fast forward and seven years later in <strong>2024</strong>... <br /><br />
+ Prannoy and Dayeon tied the knot <br /> 
+  in a small, private ceremony in  🇩🇰, <br />
+  becoming the legendary <strong>PraDa</strong> duo.<br /><br />
+Now in <strong>2026</strong>, the real celebration begins 🎉<br />
+  with a traditional wedding ceramony in 🇰🇷.<br /><br />
+Wait, your are in our VIP guest list!✨ <br />
+Now the only question is — will you join us? 💃 <br />
+</div>
               <div className="invitation-section-text3">
                 Jungbae Kang・Hyojung Jin<span className="text3-inner">'s daughter</span> Dayeon Kang
               </div>
@@ -215,7 +206,7 @@ function Bride() {
                 <br />
                 <br />
                 <strong>Example Video of Korean Traditional Wedding</strong>
-                <br />
+                <br /><br />
                 <div className="video-wrapper">
                   <iframe
                     title="전통혼례예시"
@@ -232,9 +223,8 @@ function Bride() {
           </div>
           <div className="col col-md-2 col-lg-3"></div>
         </div>
+        
         <div className="footer">
-          We look forward to celebrating this special day with you in Korea!<br />
-          <br />
           © 2025 Prannoy & Dayeon
         </div>
       </div>
