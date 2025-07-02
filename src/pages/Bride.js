@@ -77,7 +77,7 @@ function Bride() {
                 <img src={"https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/mainImage.jpg"} className="main-image" alt="t1"></img>
               </div>
               <div className="mainsection-text">
-                <div className="mainsection-text-1">We are getting married!</div>
+                <div className="mainsection-text-1">Join us in our wedding ceramony!</div>
                 <div className="mainsection-text-2">
                   Dayeon Kang<span className="text2-inner"> & </span> Prannoy Mulmi
                 </div>
@@ -101,14 +101,14 @@ Now in <strong>2026</strong>, the real celebration begins 🎉<br />
   with a traditional wedding ceramony in 🇰🇷.<br /><br />
 Wait, your are in our VIP guest list!✨ <br />
 Now the only question is — will you join us? 💃 <br />
+<br />
+<br />
+
+<strong>Jungbae Kang・Hyojung Jin</strong>'s daughter <strong>Dayeon Kang</strong><br />
+<strong>Ram Mulmi・Janahita Mulmi</strong>'s son <strong>Prannoy Mulmi</strong>
+
 </div>
-              <div className="invitation-section-text3">
-                Jungbae Kang・Hyojung Jin<span className="text3-inner">'s daughter</span> Dayeon Kang
-              </div>
-              <div className="invitation-section-text3">
-                Ram Mulmi・Janahita Mulmi
-                <span className="text3-inner">'s son</span> Prannoy Mulmi
-              </div>
+              
             </div>
             <div className="gallery-section">
               <div className="gallery-section-text">GALLERY</div>
@@ -223,7 +223,7 @@ Now the only question is — will you join us? 💃 <br />
           </div>
           <div className="col col-md-2 col-lg-3"></div>
         </div>
-        
+
         <div className="footer">
           © 2025 Prannoy & Dayeon
         </div>
