@@ -77,7 +77,7 @@ function Bride() {
                 <img src={"https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/mainImage.jpg"} className="main-image" alt="t1"></img>
               </div>
               <div className="mainsection-text">
-                <div className="mainsection-text-1">Join us in our wedding ceramony!</div>
+                <div className="mainsection-text-1">Join us at our wedding ceramony!</div>
                 <div className="mainsection-text-2">
                   Dayeon Kang<span className="text2-inner"> & </span> Prannoy Mulmi
                 </div>
