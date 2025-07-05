@@ -105,7 +105,7 @@ Now the only question is — will you join us? 💃 <br />
 <br />
 
 <strong>Jungbae Kang・Hyojung Jin</strong>'s daughter <strong>Dayeon Kang</strong><br />
-<strong>Ram Mulmi・Janahita Mulmi</strong>'s son <strong>Prannoy Mulmi</strong>
+<strong>Ram Mulmi・Janahita Mulmi</strong>'s son <strong>Prannoy Mulmi </strong>
 
 </div>
               
