@@ -600,3 +600,44 @@
     padding-right: 5px !important;
   }
 }
+@media (max-width: 768px) {
+  .mainsection-text-2 {
+    font-size: 24px;
+  }
+  .invitation-section-text2 {
+    font-size: clamp(14px, 2.5vw, 14px);
+  }
+  .invitation-section-text3 {
+    font-size: 18px;
+  }
+  .gallery-section-text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  .mainsection-text-2 {
+    font-size: 20px;
+  }
+  .invitation-section-text2 {
+    font-size: clamp(14px, 2.5vw, 14px);
+  }
+  .invitation-section-text3 {
+    font-size: 18px;
+  }
+  .gallery-section-text {
+    font-size: 12px;
+  }
+  .location-info-section-text1,
+  .location-info-section-text2,
+  .location-how-publictrans-section-text1,
+  .location-how-publictrans-section-list li,
+  .location-how2-section-text1,
+  .location-how2-section-text2,
+  .general-info-section-text1,
+  .general-info-section-text2 {
+    font-size: 14px;
+  }
+  .congratulatory-section-text {
+    font-size: 16px;
+  }       
+}
