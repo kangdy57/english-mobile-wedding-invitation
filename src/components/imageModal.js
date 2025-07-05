@@ -9,6 +9,8 @@ const imageModal = ({clickedImg, handleRotationRight, handleRotationLeft, setCli
         }
     }
 
+      if (!clickedImg) return null;
+
     return <>
     <div className="overlay dismiss" onClick={handleClick}>
         <img loading="lazy" className="" src={clickedImg} alt="original size"/>

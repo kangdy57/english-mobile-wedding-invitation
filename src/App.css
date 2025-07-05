@@ -571,3 +571,20 @@
   font-family: 'NotoSansKR';
   src: local('NotoSansKR'), url(./fonts/Noto_Sans_KR/NotoSansKR-Regular.otf) format('truetype');
 }
+
+@media (max-width: 600px) {
+  .container,
+  .main,
+  .mainsection-text,
+  .invitation-section,
+  .gallery-section,
+  .location-section,
+  .location-info-section,
+  .location-how-publictrans-section,
+  .location-how2-section,
+  .general-info-section,
+  .congratulatory-section {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+}
