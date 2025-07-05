@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/english-mobile-wedding-invitation/static/css/main.e824929f.css",
-    "main.js": "/english-mobile-wedding-invitation/static/js/main.af32a245.js",
+    "main.css": "/english-mobile-wedding-invitation/static/css/main.5d29f83b.css",
+    "main.js": "/english-mobile-wedding-invitation/static/js/main.3d354383.js",
     "static/js/496.cf873d78.chunk.js": "/english-mobile-wedding-invitation/static/js/496.cf873d78.chunk.js",
     "static/media/NotoSansKR-Regular.otf": "/english-mobile-wedding-invitation/static/media/NotoSansKR-Regular.e1aa54c04a18648e6468.otf",
     "static/media/NanumMyeongjo-Regular.ttf": "/english-mobile-wedding-invitation/static/media/NanumMyeongjo-Regular.01893c39cd1a403ef0a5.ttf",
@@ -9,12 +9,12 @@
     "index.html": "/english-mobile-wedding-invitation/index.html",
     "static/media/arrow-left.svg": "/english-mobile-wedding-invitation/static/media/arrow-left.76285d5f93b86eea4aae6a9590a2b866.svg",
     "static/media/arrow-right.svg": "/english-mobile-wedding-invitation/static/media/arrow-right.c839f6e05c5514f4b2c731171a3aed54.svg",
-    "main.e824929f.css.map": "/english-mobile-wedding-invitation/static/css/main.e824929f.css.map",
-    "main.af32a245.js.map": "/english-mobile-wedding-invitation/static/js/main.af32a245.js.map",
+    "main.5d29f83b.css.map": "/english-mobile-wedding-invitation/static/css/main.5d29f83b.css.map",
+    "main.3d354383.js.map": "/english-mobile-wedding-invitation/static/js/main.3d354383.js.map",
     "496.cf873d78.chunk.js.map": "/english-mobile-wedding-invitation/static/js/496.cf873d78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e824929f.css",
-    "static/js/main.af32a245.js"
+    "static/css/main.5d29f83b.css",
+    "static/js/main.3d354383.js"
   ]
 }
