@@ -163,6 +163,7 @@ Now the only question is — will you join us? 💃 <br />
                 </NaverMap>
               </MapDiv>
             </div>
+              <br />
             <div className="location-info-section">
               <div className="location-info-section-text1">Sejong Memorial Hall</div>
               <div className="location-info-section-text2">
@@ -206,7 +207,7 @@ Now the only question is — will you join us? 💃 <br />
             <div className="general-info-section">
               <div className="general-info-section-text1">Example Video of Traditional Ceramony</div>
               <div className="general-info-section-text2">
-                <br /><br />
+                <br />
                 <div className="video-wrapper">
                   <iframe
                     title="전통혼례예시"
@@ -216,7 +217,6 @@ Now the only question is — will you join us? 💃 <br />
                     allowFullScreen
                   ></iframe>
                 </div>
-                <br />
                 <br />
               </div>
             </div>

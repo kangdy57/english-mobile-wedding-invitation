@@ -592,11 +592,6 @@
   .main,
   .mainsection-text,
   .invitation-section,
-  .gallery-section,
-  .location-section,
-  .location-info-section,
-  .location-how-publictrans-section,
-  .location-how2-section,
   .general-info-section,
   .congratulatory-section {
     padding-left: 5px !important;
@@ -630,12 +625,6 @@
   .gallery-section-text {
     font-size: 12px;
   }
-  .location-info-section-text1,
-  .location-info-section-text2,
-  .location-how-publictrans-section-text1,
-  .location-how-publictrans-section-list li,
-  .location-how2-section-text1,
-  .location-how2-section-text2,
   .general-info-section-text1,
   .general-info-section-text2 {
     font-size: 14px;
