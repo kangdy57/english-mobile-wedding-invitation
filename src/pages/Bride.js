@@ -198,11 +198,9 @@ Now the only question is — will you join us? 💃 <br />
       <a href="https://docs.google.com/forms/d/e/1FAIpQLScPVRuaH94D9xSpVRe9c5ZkZhI94IAfoocNzWSZqBwAB_i2Fg/viewform" target="_blank" rel="noopener noreferrer">
       Click here : RSVP Link </a> 
       <a href="https://chat.whatsapp.com/FlMIuNS8CqkLFPacB2wFGc" target="_blank" rel="noopener noreferrer">
-      Click here : Join the wedding Guest WhatsApp Group </a> 
+      Click here : Join the Guest WhatsApp Group </a> 
   </div>
 </div>
-
-                 <br />
                 <br />
             <div className="general-info-section">
               <div className="general-info-section-text1">Example Video of Traditional Ceramony</div>
