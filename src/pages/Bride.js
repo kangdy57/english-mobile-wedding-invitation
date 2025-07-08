@@ -178,7 +178,8 @@ Now the only question is — will you join us? 💃 <br />
               <ol className="location-how-publictrans-section-list">
                 <li>
                   <strong>Subway</strong> <br />
-                  Goyrodae Station (고려대역) on Line 6, Exit no.3 <br />
+                  Korea Univ. Station (고려대역) on Line 6 <br />
+                  from exit no.3, 750m walk or free shuttle bus every 15 min<br />
                 </li>
                 <li>
                   <strong>Bus</strong> <br />
@@ -187,27 +188,24 @@ Now the only question is — will you join us? 💃 <br />
               </ol>
             </div>
             <div className="location-how2-section">
-              <div className="location-how2-section-text1">Car</div>
-              <div className="location-how2-section-text2">
-                Hoegiro 56-gil, Hoegi-dong, Dongdaemun-gu, Seoul, South Korea
-                <br />
-                (Free Parking)
-              </div>
-            </div>
+  <div className="location-how2-section-text1">All You Need to Know: Wedding & Korea Travel</div>
+  <div className="location-how2-section-text2">
+     To help you make the most of your time in Seoul, we've put together a helpful guide with everything you need to know — beware, it's very detailed!
+<br /> <br /> 
+           <a href="https://kangdy57.github.io/weddingWebsiteEng.html" target="_blank" rel="noopener noreferrer">
+      Click here : PraDa Wedding Info Page </a> 
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScPVRuaH94D9xSpVRe9c5ZkZhI94IAfoocNzWSZqBwAB_i2Fg/viewform" target="_blank" rel="noopener noreferrer">
+      Click here : RSVP Link </a> 
+      <a href="https://chat.whatsapp.com/FlMIuNS8CqkLFPacB2wFGc" target="_blank" rel="noopener noreferrer">
+      Click here : Join the wedding Guest WhatsApp Group </a> 
+  </div>
+</div>
+
                  <br />
                 <br />
             <div className="general-info-section">
-              <div className="general-info-section-text1">For Your Information</div>
+              <div className="general-info-section-text1">Example Video of Traditional Ceramony</div>
               <div className="general-info-section-text2">
-                Many of our guests will be wearing hanbok, Korean traditional dress, to experience the beauty of Korean tradition.
-                If you happen to own a hanbok, please feel free to wear it as well.
-                <br />
-                Of course, wearing a hanbok is by no means required — we would be grateful for your presence, whatever you feel most comfortable in.
-                <br />
-                <br />
-                <br />
-                <br />
-                <strong>Example Video of Korean Traditional Wedding</strong>
                 <br /><br />
                 <div className="video-wrapper">
                   <iframe
@@ -227,7 +225,8 @@ Now the only question is — will you join us? 💃 <br />
         </div>
 
         <div className="footer">
-          © 2025 Prannoy & Dayeon
+          We are very excited to celebrate our wedding with you!<br />
+          Family PraDa sends you love and hugs!<br />
         </div>
       </div>
     </div>
