@@ -194,6 +194,8 @@ Now the only question is — will you join us? 💃 <br />
                 (Free Parking)
               </div>
             </div>
+                 <br />
+                <br />
             <div className="general-info-section">
               <div className="general-info-section-text1">For Your Information</div>
               <div className="general-info-section-text2">
