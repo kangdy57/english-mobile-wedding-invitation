@@ -82,7 +82,7 @@ function Bride() {
                   Dayeon Kang<span className="text2-inner"> & </span> Prannoy Mulmi
                 </div>
                 <div className="mainsection-text-3">
-                  2026. 10. 24 Saturday 3pm
+                  Oct. 24th, 2026 Saturday 3pm
                   <br />
                   Sejong Memorial Hall
                 </div>
