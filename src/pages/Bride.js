@@ -34,6 +34,7 @@ function Bride() {
   "no12.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no12.jpg"
   };
 
+  
   const handleClick = (item, index) => {
     setCurrentIndex(index);
     setClickedImg(imageMap[item.link]);
