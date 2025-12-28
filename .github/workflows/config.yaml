@@ -5,23 +5,32 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   github-pages-deploy:
     runs-on: ubuntu-latest
     concurrency:
-      group: ci-${{ github.ref }}  # Fixed: proper YAML structure.
+      group: ci-${{ github.ref }}  # Fixed: proper YAML structure
+      cancel-in-progress: true     # Optional: cancels old runs
     steps:
-      - name: checkout
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup-node
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: yarn
-      - run: yarn build
+      
+      - name: Install
+        run: yarn
+      
+      - name: Build
+        run: yarn build
+      
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: build # The folder the action should deploy.
+          folder: build
           token: ${{ secrets.TOKEN_REPO }}
