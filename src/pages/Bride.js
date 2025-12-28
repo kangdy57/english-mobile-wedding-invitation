@@ -23,15 +23,15 @@ function Bride() {
   "no1.jpg": "https://5hiexw8se9.ucarecd.net/86d81d21-9992-4ca0-acdf-e70a6091babb/",
   "no2.jpg": "https://5hiexw8se9.ucarecd.net/3e8a1691-8cca-4cb4-8636-0b826f27444c/",
   "no3.jpg": "https://5hiexw8se9.ucarecd.net/029806d5-acd0-41ef-86c0-a3910d5f245a/",
-  "no4.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no4.jpg",
-  "no5.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no5.jpg",
-  "no6.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no6.jpg",
-  "no7.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no7.jpg",
-  "no8.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no8.jpg",
-  "no9.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no9.jpg",
-  "no10.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no10.jpg",
-  "no11.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no11.jpg",
-  "no12.jpg": "https://cdn.statically.io/img/raw.githubusercontent.com/kangdy57/mobile-wedding-invitation-korean/main/src/pages/no12.jpg"
+  "no4.jpg": "https://5hiexw8se9.ucarecd.net/63993ddf-3b95-4dd5-b111-5a9a91b718f6/",
+  "no5.jpg": "https://5hiexw8se9.ucarecd.net/3e9f7e65-da93-41e6-a504-3265fdc65047/",
+  "no6.jpg": "https://5hiexw8se9.ucarecd.net/59d31548-b1fa-420c-b895-d2187e5a6037/",
+  "no7.jpg": "https://5hiexw8se9.ucarecd.net/b4d499f5-938a-4837-9024-4adf1022d009/",
+  "no8.jpg": "https://5hiexw8se9.ucarecd.net/e96d2dbc-b9f9-4542-a276-4530a8740142/",
+  "no9.jpg": "https://5hiexw8se9.ucarecd.net/68625584-770c-4b66-84dd-1158e6cf1b7a/",
+  "no10.jpg": "https://5hiexw8se9.ucarecd.net/3aff7748-5a4a-45ec-9400-c19c02e0da4e/",
+  "no11.jpg": "https://5hiexw8se9.ucarecd.net/38c241e5-8ece-471d-a903-2ed652603b1b/",
+  "no12.jpg": "https://5hiexw8se9.ucarecd.net/6cf895ec-ad76-466f-a662-7466ed754569/"
   };
 
   
