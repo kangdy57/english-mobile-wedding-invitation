@@ -8,7 +8,8 @@ on:
 jobs:
   github-pages-deploy:
     runs-on: ubuntu-latest
-    concurrency: ci-${{github.ref}} # Recommended if you intend to make multiple deployments in quick succession.
+    concurrency:
+      group: ci-${{ github.ref }}  # Fixed: proper YAML structure.
     steps:
       - name: checkout
         uses: actions/checkout@v4
