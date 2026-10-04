@@ -16,8 +16,12 @@
   }
 }
 
+/* The sheet slides up over the pinned hero like a curtain, so it needs its
+   own paint layer and an opaque background. */
 .sheet {
-  display: block;
+  position: relative;
+  z-index: 1;
+  background: var(--paper);
 }
 
 /* ============================================================ typography */
@@ -71,8 +75,12 @@
 
 /* ================================================================ hero === */
 
+/* Pinned to the top of the viewport: the hero holds still while the rest of
+   the page scrolls up over it. */
 .hero {
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 0;
   height: 100svh;
   min-height: 560px;
   display: flex;
@@ -224,16 +232,26 @@
   background: var(--sand);
 }
 
-/* scroll reveal */
+/* Scroll reveal, matching the AOS "fade-up" the reference card uses:
+   100px of travel, 0.8s ease-in-out, re-triggering in both directions. */
 .reveal {
   opacity: 0;
-  transform: translateY(22px);
-  transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+  transform: translateY(100px);
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+  will-change: opacity, transform;
 }
 
 .reveal.is-shown {
   opacity: 1;
   transform: none;
+}
+
+/* Never hide content from someone who can't see the animation run. */
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 /* =========================================================== save date === */

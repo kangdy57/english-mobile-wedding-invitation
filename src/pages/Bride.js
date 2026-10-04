@@ -128,45 +128,44 @@ function Bride() {
   const [copied, setCopied] = useState(false);
   const [pastHero, setPastHero] = useState(false);
   const [overButtons, setOverButtons] = useState(false);
-  const heroRef = useRef(null);
   const dateRef = useRef(null);
   const linksRef = useRef(null);
 
-  // The floating RSVP appears once the hero is behind you, and steps aside
-  // again over the two sections that carry their own buttons, so it never
-  // sits on top of one.
+  // The hero is sticky, so it never leaves the viewport and can't be
+  // observed for this — go by scroll distance instead.
+  useEffect(() => {
+    const onScroll = () =>
+      setPastHero(window.scrollY > window.innerHeight * 0.75);
+
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    };
+  }, []);
+
+  // The floating RSVP steps aside over the two sections that carry their
+  // own buttons, so it never sits on top of one.
   useEffect(() => {
     if (typeof IntersectionObserver === "undefined") return;
 
-    const watch = (node, onChange, options) => {
-      if (!node) return () => {};
-      const observer = new IntersectionObserver(
-        ([entry]) => onChange(entry.isIntersecting),
-        options
-      );
-      observer.observe(node);
-      return () => observer.disconnect();
-    };
-
     const visible = new Set();
-    const track = (node) =>
-      watch(
-        node,
-        (isVisible) => {
-          if (isVisible) visible.add(node);
-          else visible.delete(node);
-          setOverButtons(visible.size > 0);
-        },
-        { threshold: 0.15 }
-      );
-
-    const stops = [
-      watch(heroRef.current, (isVisible) => setPastHero(!isVisible), {
-        threshold: 0.15,
-      }),
-      track(dateRef.current),
-      track(linksRef.current),
-    ];
+    const stops = [dateRef.current, linksRef.current]
+      .filter(Boolean)
+      .map((node) => {
+        const observer = new IntersectionObserver(
+          ([entry]) => {
+            if (entry.isIntersecting) visible.add(node);
+            else visible.delete(node);
+            setOverButtons(visible.size > 0);
+          },
+          { threshold: 0.15 }
+        );
+        observer.observe(node);
+        return () => observer.disconnect();
+      });
 
     return () => stops.forEach((stop) => stop());
   }, []);
@@ -192,7 +191,7 @@ function Bride() {
   return (
     <div className="page">
       {/* ------------------------------------------------------------ hero */}
-      <header className="hero" ref={heroRef}>
+      <header className="hero">
         <img
           className="hero-img"
           src={hero1200}

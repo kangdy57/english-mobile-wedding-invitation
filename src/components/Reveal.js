@@ -1,7 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 
 /**
- * Fades + lifts its children into view the first time they reach the viewport.
+ * Fades + lifts its children into view, the way AOS's "fade-up" does:
+ * the animation re-runs every time the element re-enters the viewport,
+ * in either scroll direction.
+ *
  * Falls back to "always visible" when IntersectionObserver is unavailable.
  */
 const Reveal = ({ children, className = "", delay = 0, as: Tag = "div" }) => {
@@ -16,13 +19,8 @@ const Reveal = ({ children, className = "", delay = 0, as: Tag = "div" }) => {
     }
 
     const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setShown(true);
-          observer.disconnect();
-        }
-      },
-      { rootMargin: "0px 0px -12% 0px", threshold: 0.08 }
+      ([entry]) => setShown(entry.isIntersecting),
+      { rootMargin: "0px 0px -10% 0px", threshold: 0.04 }
     );
 
     observer.observe(node);
