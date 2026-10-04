@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/english-mobile-wedding-invitation/static/css/main.06c8d0d0.css",
-    "main.js": "/english-mobile-wedding-invitation/static/js/main.285d209f.js",
+    "main.css": "/english-mobile-wedding-invitation/static/css/main.243cba65.css",
+    "main.js": "/english-mobile-wedding-invitation/static/js/main.243bf03b.js",
     "static/js/496.cf873d78.chunk.js": "/english-mobile-wedding-invitation/static/js/496.cf873d78.chunk.js",
-    "static/media/NotoSansKR-Regular.otf": "/english-mobile-wedding-invitation/static/media/NotoSansKR-Regular.e1aa54c04a18648e6468.otf",
-    "static/media/NanumMyeongjo-Regular.ttf": "/english-mobile-wedding-invitation/static/media/NanumMyeongjo-Regular.01893c39cd1a403ef0a5.ttf",
-    "static/media/mainImage.jpg": "/english-mobile-wedding-invitation/static/media/mainImage.248825a3a7dbe46f7165.jpg",
+    "static/media/hero-1800.jpg": "/english-mobile-wedding-invitation/static/media/hero-1800.e03213b0144239ce0fa3.jpg",
+    "static/media/hero-1200.jpg": "/english-mobile-wedding-invitation/static/media/hero-1200.fb1c91784e175454d4aa.jpg",
+    "static/media/hero-800.jpg": "/english-mobile-wedding-invitation/static/media/hero-800.65eac3a0a53c16d959ce.jpg",
     "index.html": "/english-mobile-wedding-invitation/index.html",
-    "static/media/arrow-left.svg": "/english-mobile-wedding-invitation/static/media/arrow-left.76285d5f93b86eea4aae6a9590a2b866.svg",
-    "static/media/arrow-right.svg": "/english-mobile-wedding-invitation/static/media/arrow-right.c839f6e05c5514f4b2c731171a3aed54.svg",
-    "main.06c8d0d0.css.map": "/english-mobile-wedding-invitation/static/css/main.06c8d0d0.css.map",
-    "main.285d209f.js.map": "/english-mobile-wedding-invitation/static/js/main.285d209f.js.map",
+    "main.243cba65.css.map": "/english-mobile-wedding-invitation/static/css/main.243cba65.css.map",
+    "main.243bf03b.js.map": "/english-mobile-wedding-invitation/static/js/main.243bf03b.js.map",
     "496.cf873d78.chunk.js.map": "/english-mobile-wedding-invitation/static/js/496.cf873d78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06c8d0d0.css",
-    "static/js/main.285d209f.js"
+    "static/css/main.243cba65.css",
+    "static/js/main.243bf03b.js"
   ]
 }
