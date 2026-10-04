@@ -1,6 +1,6 @@
 {
-  "short_name": "groom & bride",
-  "name": "groom & bride wedding invitation",
+  "short_name": "Dayeon & Prannoy",
+  "name": "Dayeon & Prannoy — Wedding Invitation",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#FAF7F2",
+  "background_color": "#FAF7F2"
 }
